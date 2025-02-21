@@ -1,7 +1,7 @@
 # 💫 About Me:
 🔭 I’m currently working on<br>🌱 Web Developer <br>💬 Ask me about<br>⚡ Technology fact
 # Visit My Portfolio:
-![Nitesh Saroj](https://niteshsaroj.vercel.app/)
+[Nitesh Saroj](https://niteshsaroj.vercel.app/)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/techpointby) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/Techpointby) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/@techpointby) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Techpointby) 
