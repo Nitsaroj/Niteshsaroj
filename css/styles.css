@@ -1,80 +1,3 @@
-/* =================================================================== 
- * Luther Main Stylesheet
- * Template Ver. 1.0.0
- * 02-15-2021
- * ------------------------------------------------------------------
- *
- * TOC:
- *
- * # SETTINGS
- *      ## fonts 
- *      ## colors
- *      ## spacing and typescale
- *      ## grid variables
- * # NORMALIZE
- * # BASE SETUP
- * # GRID
- *      ## large screen devices 
- *      ## medium screen devices 
- *      ## tablet devices 
- *      ## mobile devices 
- *      ## small screen devices 
- *      ## additional column stackpoints 
- * # UTILITY CLASSES
- * # TYPOGRAPHY 
- *      ## base type styles
- *      ## additional typography & helper classes
- *      ## lists
- *      ## spacing
- * # PRELOADER
- * # FORM
- *      ## style placeholder text
- *      ## change autocomplete styles in Chrome
- * # BUTTONS
- * # TABLE
- * # COMPONENTS
- *      ## pagination
- *      ## alert box 
- *      ## skillbars 
- *      ## stats tabs
- * # PROJECT-WIDE SHARED STYLES
- *      ## media classes
- *      ## theme-specific typography classes
- *      ## MailtoUI style overrides
- * # PAGE WRAP
- *      ## circles
- * # SITE HEADER
- *      ## main navigation
- *      ## mobile menu toggle
- * # INTRO
- *      ## intro social
- *      ## intro scrolldown
- * # ABOUT
- *      ## about info
- *      ## about expertise
- *      ## about timelines
- * # WORKS
- *      ## works portfolio
- *      ## modal popup
- *      ## testimonials
- *      ## testimonial slider 
- * # CONTACT
- * # FOOTER
- *      ## copyright
- *      ## go top
- *
- * ------------------------------------------------------------------ */
-
-
-/* ===================================================================
- * # SETTINGS
- *
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts 
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
@@ -87,9 +10,7 @@
     --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
-/* ------------------------------------------------------------------- 
- * ## colors
- * ------------------------------------------------------------------- */
+
 :root {
 
     /* color-1(#eabe7c)
@@ -184,9 +105,6 @@
     --border-radius : 3px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## spacing and typescale
- * ------------------------------------------------------------------- */
 :root {
 
     /* spacing
@@ -264,9 +182,7 @@
     }
 }
 
-/* ------------------------------------------------------------------- 
- * ## grid variables
- * ------------------------------------------------------------------- */
+
 :root {
 
     /* widths for rows and containers
@@ -303,14 +219,7 @@
 
 
 
-/* ====================================================================
- * # NORMALIZE
- *
- *
- * --------------------------------------------------------------------
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- * -------------------------------------------------------------------- */
+
 
 html {
     line-height              : 1.15;
@@ -565,24 +474,7 @@ textarea {
 
 
 
-/* ===================================================================
- * # GRID v4.0.0
- *
- *
- *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- *
- * - BLOCK GRID columns(columns inside BLOCK GRID containers) are 
- *   equally-sized columns define at parent/row level. 
- *   A BLOCK GRID container's class attribute value begins with "block-".
- *
- * ------------------------------------------------------------------- */
 
-/* row 
- */
 .row {
     width     : 92%;
     max-width : var(--width-grid-max);
@@ -653,9 +545,7 @@ textarea {
     justify-content : center;
 }
 
-/* --------------------------------------------------------------------
- * ## large screen devices 
- * -------------------------------------------------------------------- */
+
 .lg-1 {
     flex  : none;
     width : 8.33333%;
@@ -751,9 +641,7 @@ textarea {
     width : 100%;
 }
 
-/* --------------------------------------------------------------------
- * ## medium screen devices 
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .md-1 {
         flex  : none;
@@ -855,9 +743,7 @@ textarea {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## tablet devices 
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 800px) {
     .tab-1 {
         flex  : none;
@@ -959,9 +845,7 @@ textarea {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## mobile devices 
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 600px) {
     .row {
         width         : 100%;
@@ -1074,12 +958,7 @@ textarea {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## small screen devices 
- * --------------------------------------------------------------------*/
 
-/* stack columns on small screen devices
- */
 @media screen and (max-width: 400px) {
     .row .row {
         margin-left  : 0;
@@ -1100,9 +979,7 @@ textarea {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## additional column stackpoints 
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 1000px) {
 
     .stack-on-1000,
@@ -1138,14 +1015,7 @@ textarea {
 
 
 
-/* ===================================================================
- * # UTILITY CLASSES
- *
- *
- * ------------------------------------------------------------------- */
 
-/* flex item alignment classes
- */
 .u-flexitem-center {
     margin     : auto;
     align-self : center;
@@ -1245,31 +1115,7 @@ textarea {
 
 
 
-/* ===================================================================
- * # TYPOGRAPHY 
- *
- *
- * ------------------------------------------------------------------- 
- * type scale - ratio 1:2 | base: 19px
- * -------------------------------------------------------------------
- *
- * --text-display-3 = (81.70px)
- * --text-display-2 = (68.08px)
- * --text-display-1 = (56.73px)
- * --text-xxxl      = (47.28px)
- * --text-xxl       = (39.40px)
- * --text-xl        = (32.83px)
- * --text-lg        = (27.36px)
- * --text-md        = (22.80px)
- * --text-size      = (19.00px) BASE
- * --text-sm        = (15.83px)
- * --text-xs        = (13.19px)
- *
- * -------------------------------------------------------------------- */
 
-/* --------------------------------------------------------------------
- * ## base type styles
- * -------------------------------------------------------------------- */
 body {
     font-family : var(--font-1);
     font-size   : var(--base-font-size);
@@ -1497,9 +1343,7 @@ pre>code {
     border      : none;
 }
 
-/* deleted text, abbreviation,
- * & mark text
- */
+
 del {
     text-decoration : line-through;
 }
@@ -1546,9 +1390,7 @@ hr.fancy::before {
     letter-spacing : .3em;
 }
 
-/* --------------------------------------------------------------------
- * ## additional typography & helper classes
- * -------------------------------------------------------------------- */
+
 .lead,
 .attention-getter {
     font-family : var(--font-1);
@@ -1617,9 +1459,7 @@ hr.fancy::before {
     text-align : right;
 }
 
-/* --------------------------------------------------------------------
- * ## lists
- * -------------------------------------------------------------------- */
+
 ol {
     list-style : decimal;
 }
@@ -1677,8 +1517,7 @@ dd {
     margin : 0 0 0 2rem;
 }
 
-/* definition list line style 
- */
+
 .lining dt,
 .lining dd {
     display : inline;
@@ -1725,9 +1564,7 @@ dd {
     content : counter(definitions, decimal) ". ";
 }
 
-/* --------------------------------------------------------------------
- * ## spacing
- * -------------------------------------------------------------------- */
+
 fieldset,
 button,
 .btn {
@@ -1755,18 +1592,6 @@ img,
 
 
 
-/* ===================================================================
- * # PRELOADER
- * 
- * 
- * -------------------------------------------------------------------
- * - markup:
- *
- * <div id="preloader">
- *    <div id="loader"></div>
- * </div>
- *
- * ------------------------------------------------------------------- */
 
 #preloader {
     position        : fixed;
@@ -1821,11 +1646,7 @@ img,
 
 
 
-/* ===================================================================
- * # FORM
- *
- *
- * ------------------------------------------------------------------- */
+
 
 fieldset {
     border : none;
@@ -2001,12 +1822,6 @@ select:-webkit-autofill:focus {
 
 
 
-/* ===================================================================
- * # BUTTONS
- *
- *
- * ------------------------------------------------------------------- */
-
 .btn,
 button,
 input[type="submit"],
@@ -2126,11 +1941,7 @@ button.btn--pill {
 
 
 
-/* ===================================================================
- * # TABLE
- *
- *
- * ------------------------------------------------------------------- */
+
 
 table {
     border-width    : 0;
@@ -2171,15 +1982,7 @@ td:last-child {
 
 
 
-/* ===================================================================
- * # COMPONENTS
- *
- *
- * ------------------------------------------------------------------- */
 
-/* -------------------------------------------------------------------
- * ## pagination
- * ------------------------------------------------------------------- */
 .pgn {
     --pgn-num-height : calc(var(--vspace-1) + .4rem);
     margin           : var(--vspace-1) auto;
@@ -2817,10 +2620,7 @@ img.u-pull-left {
     color       : white;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * project-wide shared styles
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 800px) {
     .text-pretitle.with-line {
         padding-left : 3rem;
@@ -2835,11 +2635,7 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # PAGE WRAP
- *
- *
- * ------------------------------------------------------------------- */
+
 
 .s-pagewrap {
     --circle-width  : 70vw;
@@ -2851,9 +2647,7 @@ img.u-pull-left {
     position        : relative;
 }
 
-/* --------------------------------------------------------------------
- * ## circles
- * -------------------------------------------------------------------- */
+
 .s-pagewrap .circles,
 .s-pagewrap .circles span {
     position : absolute;
@@ -2905,10 +2699,7 @@ img.u-pull-left {
     visibility : hidden;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * page-wrap
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 800px) {
     .s-pagewrap .circles {
         top : calc(var(--header-height) + 5vh);
@@ -2917,11 +2708,7 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # SITE HEADER
- *
- *
- * ------------------------------------------------------------------- */
+
 
 .s-header {
     --box-shadow : 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 2px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.06), 0 8px 8px rgba(0, 0, 0, 0.06);
@@ -2941,9 +2728,7 @@ img.u-pull-left {
     border-bottom    : 1px solid var(--color-border);
 }
 
-/* --------------------------------------------------------------------
- * ## main navigation
- * -------------------------------------------------------------------- */
+
 .mobile-home-link a,
 .main-nav a {
     display             : block;
@@ -3007,9 +2792,7 @@ img.u-pull-left {
     border-right : none;
 }
 
-/* --------------------------------------------------------------------
- * ## mobile menu toggle
- * -------------------------------------------------------------------- */
+
 .mobile-menu-toggle {
     display  : block;
     width    : var(--header-height);
@@ -3080,10 +2863,7 @@ img.u-pull-left {
     transform : rotate(-45deg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * site-header
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 1000px) {
     .main-nav-wrap {
         width : 100%;
@@ -3208,9 +2988,7 @@ img.u-pull-left {
     padding-right : 5vw;
 }
 
-/* --------------------------------------------------------------------
- * ## intro social
- * -------------------------------------------------------------------- */
+
 .intro-social {
     z-index          : 1;
     list-style       : none;
@@ -3241,9 +3019,7 @@ img.u-pull-left {
     color : white;
 }
 
-/* --------------------------------------------------------------------
- * ## intro scrolldown
- * -------------------------------------------------------------------- */
+
 .intro-scrolldown {
     display         : block;
     height          : var(--vspace-1);
@@ -3271,10 +3047,7 @@ img.u-pull-left {
     fill : var(--color-1);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * intro
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 1600px) {
     .s-intro {
         --text-huge-multiplier : .92;
@@ -3387,20 +3160,14 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # ABOUT
- *
- *
- * ------------------------------------------------------------------- */
+
 
 .s-about {
     padding-top    : var(--vspace-4);
     padding-bottom : var(--vspace-3);
 }
 
-/* --------------------------------------------------------------------
- * ## about info
- * -------------------------------------------------------------------- */
+
 .about-info {
     --gutter    : 0;
     width       : 100%;
@@ -3427,9 +3194,7 @@ img.u-pull-left {
     margin-bottom : 0;
 }
 
-/* --------------------------------------------------------------------
- * ## about expertise
- * -------------------------------------------------------------------- */
+
 .about-expertise {
     padding-top : calc(6 * var(--space));
 }
@@ -3449,9 +3214,7 @@ img.u-pull-left {
     content : ", ";
 }
 
-/* --------------------------------------------------------------------
- * ## about timelines
- * -------------------------------------------------------------------- */
+
 .about-timelines {
     --timeline-left-padding : var(--vspace-1_75);
     --timeline-top-adjust   : var(--vspace-0_5);
@@ -3525,10 +3288,7 @@ img.u-pull-left {
     margin-top     : -.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 1300px) {
     .about-info__text {
         padding : var(--vspace-2) 8rem var(--vspace-1_5) 0;
@@ -3578,11 +3338,7 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # WORKS
- *
- *
- * ------------------------------------------------------------------- */
+
 
 .s-works {
     padding-top    : var(--vspace-5);
@@ -3835,9 +3591,7 @@ img.u-pull-left {
     color            : white;
 }
 
-/* ------------------------------------------------------------------- 
- * ## testimonials
- * ------------------------------------------------------------------- */
+
 .testimonials {
     margin-top : var(--vspace-3);
 }
@@ -3862,9 +3616,7 @@ img.u-pull-left {
     opacity    : 1;
 }
 
-/* ------------------------------------------------------------------- 
- * ## testimonial slider 
- * ------------------------------------------------------------------- */
+
 .testimonial-slider__slide {
     position : relative;
 }
@@ -3926,10 +3678,7 @@ img.u-pull-left {
     color       : var(--color-text-light);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * works
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .folio-list__item-title {
         font-size   : var(--text-md);
@@ -4088,10 +3837,7 @@ img.u-pull-left {
     margin-right : 5vw;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * contact
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .contact-btn {
         margin-top   : var(--vspace-0_5);
@@ -4108,11 +3854,7 @@ img.u-pull-left {
 
 
 
-/* ===================================================================
- * # FOOTER
- *
- *
- * ------------------------------------------------------------------- */
+
 
 .s-footer {
     margin-top     : auto;
@@ -4134,9 +3876,7 @@ img.u-pull-left {
     color : white;
 }
 
-/* ------------------------------------------------------------------- 
- * ## copyright
- * ------------------------------------------------------------------- */
+
 .ss-copyright {
     margin-top   : calc(var(--vspace-0_25) * -1);
     margin-right : 5.2rem;
@@ -4159,9 +3899,7 @@ img.u-pull-left {
     display : none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go top
- * ------------------------------------------------------------------- */
+
 .ss-go-top {
     z-index  : 2;
     position : absolute;
@@ -4203,10 +3941,7 @@ img.u-pull-left {
     fill : white;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
+
 @media screen and (max-width: 600px) {
     .ss-copyright span {
         display : block;
